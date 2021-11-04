@@ -1,0 +1,35 @@
+/*
+배경색 #fafbfc
+글자색 #2c2c2c
+아이콘색 #e8dab3
+*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  color: black;
+}
+
+body {
+  font-family: "Noto Sans KR", "Noto Sans", "AppleSDGothicNeo", "Roboto",
+    "dotum", "돋움", sans-serif;
+  background-color: #fafbfc;
+  color: #2c2c2c;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  border: none;
+  background-color: #fff;
+}
